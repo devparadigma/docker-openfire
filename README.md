@@ -1,5 +1,3 @@
-[![Docker Repository on Quay.io](https://quay.io/repository/sameersbn/openfire/status "Docker Repository on Quay.io")](https://quay.io/repository/sameersbn/openfire)
-
 # devparadigma/openfire:4.7.3
 
 - [Introduction](#introduction)
@@ -43,9 +41,7 @@ If the above recommendations do not help then [report your issue](../../issues/n
 
 ## Installation
 
-Automated builds of the image are available on [Dockerhub](https://hub.docker.com/r/sameersbn/openfire) and is the recommended method of installation.
-
-> **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/openfire)
+Automated builds of the image are available on [Dockerhub](https://hub.docker.com/r/devparadigma/openfire) and is the recommended method of installation.
 
 ```bash
 docker pull devparadigma/openfire:latest
@@ -136,4 +132,4 @@ docker exec -it openfire bash
 # References
 
   * http://www.igniterealtime.org/projects/openfire/
-  * https://library.linode.com/communications/xmpp/openfire/ubuntu-12.04-precise-pangolin
+  * https://www.linode.com/docs/guides/install-openfire-on-ubuntu-12-04-for-instant-messaging/

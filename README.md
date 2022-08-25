@@ -1,6 +1,6 @@
 [![Docker Repository on Quay.io](https://quay.io/repository/sameersbn/openfire/status "Docker Repository on Quay.io")](https://quay.io/repository/sameersbn/openfire)
 
-# sameersbn/openfire:3.10.3-19
+# devparadigma/openfire:4.7.3
 
 - [Introduction](#introduction)
   - [Contributing](#contributing)
@@ -48,13 +48,13 @@ Automated builds of the image are available on [Dockerhub](https://hub.docker.co
 > **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/openfire)
 
 ```bash
-docker pull sameersbn/openfire:3.10.3-19
+docker pull devparadgima/openfire:4.7.3
 ```
 
 Alternatively you can build the image yourself.
 
 ```bash
-docker build -t sameersbn/openfire github.com/sameersbn/docker-openfire
+docker build -t devparadigma/openfire github.com/devparadgima/docker-openfire
 ```
 
 ## Quickstart
@@ -65,7 +65,7 @@ Start Openfire using:
 docker run --name openfire -d --restart=always \
   --publish 9090:9090 --publish 5222:5222 --publish 7777:7777 \
   --volume /srv/docker/openfire:/var/lib/openfire \
-  sameersbn/openfire:3.10.3-19
+  devparadigma/openfire:4.7.3
 ```
 
 *Alternatively, you can use the sample [docker-compose.yml](docker-compose.yml) file to start the container using [Docker Compose](https://docs.docker.com/compose/)*
@@ -102,7 +102,7 @@ To upgrade to newer releases:
   1. Download the updated Docker image:
 
   ```bash
-  docker pull sameersbn/openfire:3.10.3-19
+  docker pull devparadigma/openfire:4.7.3
   ```
 
   2. Stop the currently running image:
@@ -122,7 +122,7 @@ To upgrade to newer releases:
   ```bash
   docker run -name openfire -d \
     [OPTIONS] \
-    sameersbn/openfire:3.10.3-19
+    devparadgima/openfire:4.7.3
   ```
 
 ## Shell Access

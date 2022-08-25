@@ -48,7 +48,7 @@ Automated builds of the image are available on [Dockerhub](https://hub.docker.co
 > **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/openfire)
 
 ```bash
-docker pull devparadgima/openfire:4.7.3
+docker pull devparadigma/openfire:4.7.3
 ```
 
 Alternatively you can build the image yourself.

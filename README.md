@@ -54,7 +54,7 @@ docker pull devparadigma/openfire:4.7.3
 Alternatively you can build the image yourself.
 
 ```bash
-docker build -t devparadigma/openfire github.com/devparadgima/docker-openfire
+docker build -t devparadigma/openfire github.com/devparadigma/docker-openfire
 ```
 
 ## Quickstart

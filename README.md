@@ -48,7 +48,7 @@ Automated builds of the image are available on [Dockerhub](https://hub.docker.co
 > **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/openfire)
 
 ```bash
-docker pull devparadigma/openfire:4.7.3
+docker pull devparadigma/openfire:latest
 ```
 
 Alternatively you can build the image yourself.
@@ -102,7 +102,7 @@ To upgrade to newer releases:
   1. Download the updated Docker image:
 
   ```bash
-  docker pull devparadigma/openfire:4.7.3
+  docker pull devparadigma/openfire:latest
   ```
 
   2. Stop the currently running image:
@@ -122,7 +122,7 @@ To upgrade to newer releases:
   ```bash
   docker run -name openfire -d \
     [OPTIONS] \
-    devparadgima/openfire:4.7.3
+    devparadgima/openfire:latest
   ```
 
 ## Shell Access
